@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="en">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scientific Museum</title>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+        <link rel="stylesheet" href="css/general_style.css">
+    </head>
+    <body>
+        <header>
+            <div class="title_searchbar center-items">
+                <ul>
+                    <li>Community</li>
+                    <li>Science museum</li>
+                    <!-- <li>Steinkjer</li> -->
+                </ul>
+                <form>
+                    <input type="text" placeholder="Search" id="search" name="search">
+                    <button type="submit" class="search_btn"><i class="fas fa-light fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+
+            <div class="center-items mr-10">
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-flip-horizontal bgcolor-white"></i></a>
+                <div class="cart_user_account center-items">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <ul>
+                        <li><a href="#" class="remove_link_decoration">Login</a></li>
+                        <li><a href="#" class="remove_link_decoration">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+      
+        </header>
+        <!-- NAV for Default Screen -->
+        <nav class="main_menu color-white1 bgcolor-black">
+            <ul>
+                <li><a href='/home'>HOME</a></li>
+                <li><a href='/museum_programs'>MUSEUM PROGRAMS</a></li>
+                <li><a href='/explore'>EXPLORE</a></li>
+                <li><a href='/events'>EVENTS</a></li>
+                <li><a href='/exhibitions'>EXHIBITIONS</a></li>
+                <li><a href='/visitus'>VISIT US</a></li>
+            </ul>
+        </nav>
+        <!-- HEADER MOBILE -->
+        <div class="mobile-header">
+            <div class="title_searchbar center-items">
+                <ul>
+                    <li>Community</li>
+                    <li>Science museum</li>
+                    <!-- <li>Steinkjer</li> -->
+                </ul>
+            </div>
+            <div class="center-items mr-2">
+                <a class="mr-4" href="#"><i class="fa-solid fa-cart-shopping fa-flip-horizontal bgcolor-white"></i></a>
+                <div class="cart_user_account center-items">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <ul>
+                        <li><a href="#" class="remove_link_decoration">Login</a></li>
+                        <li><a href="#" class="remove_link_decoration">Register</a></li>
+                    </ul>
+                </div>                
+            </div>
+
+        </div>
+        <!-- NAV for Hamburger Response -->
+        <div class="hamburger_container">
+            <input id="menu-box" type="checkbox">
+            <label for="menu-box">
+                <div class="hamburger_icon"><i class="fa fa-bars"></i></div>
+            </label> 
+            <form>
+                <input type="text" placeholder="Search" id="Search" name="Search">
+                <button type="submit" class="search_btn"><i class="fas fa-light fa-magnifying-glass"></i></button>
+            </form>
+            <label class="menu-overlay hamburger_menu" for="menu-box">
+            </label>
+            <nav class="hamburger_menu color-white1 bgcolor-black">
+                <ul>
+                    <li><a href='/home'>HOME</a></li>
+                    <li><a href='/museum_programs'>MUSEUM PROGRAMS</a></li>
+                    <li><a href='/explore'>EXPLORE</a></li>
+                    <li><a href='/events'>EVENTS</a></li>
+                    <li><a href='/exhibitions'>EXHIBITIONS</a></li>
+                    <li><a href='/visitus'>VISIT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- MAIN PAGE CONTENT-->
+        <div class="homeimage-top-container">
+            <img src="../images/homeimagetop.jpg" alt="kids_in_lab_image">
+        </div>
+        
+        <div class="home_article1_container">
+            <ul class="article_style1">
+                <li>Over the course of human history, science has developed from our</li>
+                <li>early understanding of fire, wind, water and earth to exploring every</li>
+                <li>thing from galaxies far away to the very building blocks of life itself.</li>
+            </ul>
+        </div>
+        <div class="homeimages-middle">
+            <img src="../images/kid-touches-robot.jpg" alt="kid-touches-robot-image">
+            <div class="home_article2_container">
+                <h2>Cosmology</h2>
+                <p class="article_style1">
+                    Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can
+                    see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and
+                    learn a bit about the early navigators who used the stars to travel by
+                </p>
+            </div>
+        </div>
+        
+        <div class="submenu_container center-items">
+            <div class="submenu_grid_container">
+                <div class="grid_submenu"><button class="home_button color-white1"><a class='remove_link_decoration' href='/home'>Home</a></button></div>
+                <div class="grid_submenu"><button class="Events_button_button color-white1"><a class='remove_link_decoration' href='/events'>Events</a></button></div>
+                <div class="grid_submenu"><button class="Museum_button color-white1"><a class='remove_link_decoration' href='/museum_programs'>Programs</a></button></div>
+                <div class="grid_submenu"><button class="Exhibition_button color-white1"><a class='remove_link_decoration' href='/exhibitions'>Exhibitions</a></button></div>
+                <div class="grid_submenu"><button class="Explore_button color-white1"><a class='remove_link_decoration' href='/explore'>Explore</a></button></div>
+                <div class="grid_submenu"><button class="Visit_Us_button color-white1"><a class='remove_link_decoration' href='/visitus'>Visit Us</a></button></div>
+            </div>
+        </div>
+       <footer class="footer_area">
+        <div class="follow-paywith-container">
+            <div class="social_handles">
+                <p>Follow us</p>
+                <div class="social_icons">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-square-facebook bgcolor-white"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram color-white1"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-tiktok color-white1 bgcolor-black"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter bgcolor-white"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="payments_modes">
+                <p>Pay With</p>
+                <div class="payment_icons">
+                    <a href="#"><img src="../images/visa.png" alt="visa_card_icon"></a>
+                </div>
+            </div>
+        </div>
+        <div class="blackseparator2"></div>
+        <div class="copyright_info color-white1">
+            <div class="site_title_footer">
+                <ul>
+                    <li>Community</li>
+                    <li>Science museum</li>
+                    <!-- <li>Steinkjer</li> -->
+                </ul>
+            </div>
+            <p> Tel. +256757886712 </p>
+        </div>
+       </footer>
+    </body>
+</html>
