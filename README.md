@@ -32,8 +32,7 @@ museum-site/
 │   └── general_style.css  # General/shared styles
 ├── images/
 │   ├── homeimagetop.jpg   # Hero image
-│   ├── kid-touches-robot.jpg  # Content image
-│   └── visa.png           # Payment icon
+│   └── kid-touches-robot.jpg  # Content image
 └── README.md              # This file
 ```
 
@@ -144,6 +143,7 @@ Contributions are welcome! Feel free to:
 - The website uses Font Awesome for icons. Make sure the Font Awesome library is properly linked.
 - Some navigation links are currently placeholders and point to relative paths (e.g., `/museum_programs`, `/explore`).
 - The payment system and shopping cart are UI elements only and don't have backend functionality implemented.
+- Note: The HTML references `visa.png` in the footer, but this image file is not currently included in the repository.
 
 ---
 
